@@ -22,8 +22,8 @@ between their algorithm and the existing interdisciplinary time-series analysis 
 whether their algorithm is really contributing to the genuine advancement of the field.
 
 Here are a few examples of the platform functionality I developed in this GSoC project:
-![](GIF-200822_154754.gif)
-![](GIF-200822_154754.gif)
+![](fun.gif)
+![](docker+explore.gif)
 
 ### What was done
 
@@ -52,12 +52,14 @@ The development process of the project can be broken down into three parts:
         * Filter buttons to filter the rows based in column data.
         * Density button to change the height of the rows.
         * Download all results in .csv format.
+    ![](table1edited.gif)
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
         * Switched between rank-vs-raw data points.
         * Hover to see data points and time-series names.
         * Zoom each plot to more clearly visualize the relationships.
+          ![](scatterplot1.gif)
     * Visualization for comparing two features using category plots (as visualized in the gif below), which enables
       users to:
         * Select the feature from drop down list.
@@ -65,6 +67,7 @@ The development process of the project can be broken down into three parts:
         * Compare the features based on the category of time series.
         * Click on the data points to visualize the time series corresponding to that datapoint.
         * Zoom each plot to more clearly visualize the relationships.
+          ![](category.gif)
     * Network visualization for pairwise relationships between each of the top 15 features matching the center feature(
       black node), which enables users to:
         * Click on the node to get feature name and keywords.
@@ -73,6 +76,7 @@ The development process of the project can be broken down into three parts:
         * Recenter button to go back to center feature at the start.
         * Legends to get pairwise relationship in a glance.
         * Toggle buttons to control the network plots canvas.
+          ![](network.gif)
 
 
 3. **Third phase - Adding docker to improve security and deploying the system on a server.**  
@@ -86,7 +90,7 @@ The development process of the project can be broken down into three parts:
 
 * [Link to full repository](https://github.com/NeuralSystemsAndSignals/Comp-Engine-Features)
 * [Links for all commits]()
-* [Link to all weekly reports]()
+* [Link to all weekly reports](https://drive.google.com/drive/folders/1AFOCfBi7diJDrial1N8fYX55vpZGoOjI?usp=sharing)
 
 ### Future Work
 
