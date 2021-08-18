@@ -41,7 +41,7 @@ The development process of the project can be broken down into three phases:
       and for storing empirical 1000 time-series and their categories.
     * Redux store was developed in the React to cache the explored hctsa features, time-series and network plots.
     * Added the search functionality in the navigation bar.
-
+    <br></br> 
 
 2. **Second phase - Improving the output visualizations**  
    &nbsp; _In this phase, I focused on improving the output visualizations, that will help the user to understand
@@ -52,16 +52,16 @@ The development process of the project can be broken down into three phases:
         * Filter buttons to filter the rows based in column data.
         * Density button to change the height of the rows.
         * Download all results in .csv format.
-    
     ![](table1edited.gif)   
-   <kbd><img src="https://i.imgur.com/G9EzQst.gifv"/></kbd>
+   <br></br>
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
         * Switched between rank-vs-raw data points.
         * Hover to see data points and time-series names.
         * Zoom each plot to more clearly visualize the relationships.
-          ![](scatterplot1.gif)
+    ![](scatterplot1.gif)
+    <br></br>
     * Visualization for comparing two features using category plots (as visualized in the gif below), which enables
       users to:
         * Select the feature from drop down list.
@@ -69,7 +69,8 @@ The development process of the project can be broken down into three phases:
         * Compare the features based on the category of time series.
         * Click on the data points to visualize the time series corresponding to that datapoint.
         * Zoom each plot to more clearly visualize the relationships.
-          ![](category.gif)
+   ![](category.gif)
+          <br></br>
     * Network visualization for pairwise relationships between each of the top 15 features matching the center feature(
       black node), which enables users to:
         * Click on the node to get feature name and keywords.
@@ -78,7 +79,8 @@ The development process of the project can be broken down into three phases:
         * Recenter button to go back to center feature at the start.
         * Legends to get pairwise relationship in a glance.
         * Toggle buttons to control the network plots canvas.
-          ![](network.gif)
+   ![](network.gif)
+          <br></br>
 
 
 3. **Third phase - Adding docker to improve security and deploying the system on a server.**  
@@ -91,7 +93,7 @@ The development process of the project can be broken down into three phases:
 ### Link to work
 
 * [Link to full repository](https://github.com/NeuralSystemsAndSignals/Comp-Engine-Features)
-* [Links for all commits]()
+* [Link for commit]()
 * [Link to all weekly reports](https://drive.google.com/drive/folders/1AFOCfBi7diJDrial1N8fYX55vpZGoOjI?usp=sharing)
 
 ### Future Work
