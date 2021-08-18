@@ -10,7 +10,6 @@
 
 ---
 
-
 ## Introduction
 
 In this **Google Summer of Code 2021** project I continued the development of *Comp-Engine-Features*, an online-platform
@@ -21,8 +20,8 @@ a [dataset of 1000 diverse time series](https://figshare.com/articles/1000_Empir
 analyzes the spearman correlation between the output of the user's algorithm with the _hctsa_ feature library and
 presents a range of intuitive output visualizations that show the best-matching features. This output allows any new
 method to be automatically benchmarked against interdisciplinary literature and helps the user to understand connections
-between their algorithm and the existing interdisciplinary time-series analysis algorithms, and further asses
-whether their algorithm is really contributing to the genuine advancement of the field.
+between their algorithm and the existing interdisciplinary time-series analysis algorithms, and further asses whether
+their algorithm is really contributing to the genuine advancement of the field.
 
 Here are a few examples of the platform functionality I developed in this GSoC project:
 
@@ -31,35 +30,35 @@ Here are a few examples of the platform functionality I developed in this GSoC p
 ![](docker+explore.gif)
 
 --- 
+
 ## What was done
 
 The development process of the project can be broken down into three phases:
 
 1. **Upgrading to API-first architecture**  
-   _In this phase, I worked on upgrading the platform architecture by introducing a range of changes:_
-    * The front-end was developed as a SPA from scratch using React framework. Development of components for 'Home', '
+   _In this phase, we worked on upgrading the platform architecture and introduced a range of changes, like:_
+    * Developed frontend as a SPA from scratch using React and several components - 'Home', '
       How-it-works', 'Contact', 'Preloader', 'Result', 'Syntax error', 'Timeout Error', '404 Not found', 'Navigation
       Bar', 'Explore' etc.
-    * Front-end was connected to the backend server using APIs.
-    * New views were created to return JsonResponse for API calls.
-    * NoSQL database was created for storing precomputed correlation and p-values for various features in hctsa package
-      and for storing empirical 1000 time-series and their categories.
-    * Redux store was developed in the React to cache the explored hctsa features, time-series and network plots.
+    * Connected frontend to the backend server using APIs.
+    * Created new views in backend to return JsonResponse for API calls.
+    * Created NoSQL database for storing precomputed correlation and p-values for various features in hctsa package,
+      along with empirical 1000 time-series and their categories.
+    * Developed Redux store in the React to cache the explored hctsa features, time-series and network plots.
     * Added the search functionality in the navigation bar.
 
 
 2. **Improving the output visualizations**  
-   _In this phase, I focused on improving the output visualizations, that will help the user to understand
-   connections between the feature being explored and other hctsa features. A range of output visualizations were
-   developed from scratch in React app, including:_
-
+   _In this phase, we focused on improving the output visualizations, that will help the user to understand connections
+   between the feature being explored and other hctsa features. A range of output visualizations were developed from
+   scratch in React app, including:_
     * Interactive results table (functionality shown in the gif below), that allows users to:
         * Columns button to show / hide column from table.
         * Filter buttons to filter the rows based in column data.
         * Density button to change the height of the rows.
         * Download all results in .csv format.
           ![](table1edited.gif)
-        
+
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
@@ -67,7 +66,7 @@ The development process of the project can be broken down into three phases:
         * Hover to see data points and time-series names.
         * Zoom each plot to more clearly visualize the relationships.
           ![](scatterplot1.gif)
-      
+
     * Visualization for comparing two features using category plots (as visualized in the gif below), which enables
       users to:
         * Select the feature from drop down list.
@@ -76,7 +75,7 @@ The development process of the project can be broken down into three phases:
         * Click on the data points to visualize the time series corresponding to that datapoint.
         * Zoom each plot to more clearly visualize the relationships.
           ![](category.gif)
-      
+
     * Network visualization for pairwise relationships between each of the top 15 features matching the center feature(
       black node), which enables users to:
         * Click on the node to get feature name and keywords.
@@ -86,7 +85,7 @@ The development process of the project can be broken down into three phases:
         * Legends to get pairwise relationship in a glance.
         * Toggle buttons to control the network plots canvas.
           ![](network.gif)
-      
+
 
 3. **Adding docker to improve security and deploying the system on a server.**  
    _This phase was one of the most challenging one. In this phase, we:_
@@ -94,8 +93,8 @@ The development process of the project can be broken down into three phases:
     * Added support for Python and Julia code computation.
     * Deployed the complete system on the Sydney University server.
 
-
 --- 
+
 ### Link to work
 
 * [Link to full repository](https://github.com/NeuralSystemsAndSignals/Comp-Engine-Features)
@@ -103,6 +102,7 @@ The development process of the project can be broken down into three phases:
 * [Link to all weekly reports](https://drive.google.com/drive/folders/1AFOCfBi7diJDrial1N8fYX55vpZGoOjI?usp=sharing)
 
 ---
+
 ### Future Work
 
 All the requirements outlined in the GSoC proposal have been completed. This project act like a stepping stone in the
