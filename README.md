@@ -27,7 +27,7 @@ whether their algorithm is really contributing to the genuine advancement of the
 Here are a few examples of the platform functionality I developed in this GSoC project:
 
 ![](fun.gif)
-
+&nbsp;
 ![](docker+explore.gif)
 
 --- 
