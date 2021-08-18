@@ -2,7 +2,7 @@
 
 ##### Organization : International Neuroinformatics Coordinating Facility (INCF)
 
-##### Project      : Automated comparison of scientific methods for time series analysis.
+##### Project      : An online platform for automated comparison of scientific methods for time series analysis.
 
 ##### Student      : Diptanshu Mittal
 
