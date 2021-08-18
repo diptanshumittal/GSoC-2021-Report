@@ -27,7 +27,7 @@ Here are a few examples of the platform functionality I developed in this GSoC p
 
 ### What was done
 
-The development process of the project can be broken down into three parts:
+The development process of the project can be broken down into three phases:
 
 1. **First phase - Upgrading to API-first architecture**  
    &nbsp; _In this phase, I worked on upgrading the platform architecture by introducing a range of changes:_
@@ -52,7 +52,7 @@ The development process of the project can be broken down into three parts:
         * Filter buttons to filter the rows based in column data.
         * Density button to change the height of the rows.
         * Download all results in .csv format.
-    ![](table1edited.gif)
+    <kbd>![](table1edited.gif)</kbd>
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
