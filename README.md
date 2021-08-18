@@ -52,7 +52,7 @@ The development process of the project can be broken down into three phases:
         * Filter buttons to filter the rows based in column data.
         * Density button to change the height of the rows.
         * Download all results in .csv format.
-    <kbd>![](table1edited.gif)</kbd>
+    <kbd>![](table1edited.gif)
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
