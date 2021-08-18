@@ -23,6 +23,7 @@ whether their algorithm is really contributing to the genuine advancement of the
 
 Here are a few examples of the platform functionality I developed in this GSoC project:
 ![](fun.gif)
+<br/>
 ![](docker+explore.gif)
 
 ### What was done
@@ -41,7 +42,6 @@ The development process of the project can be broken down into three phases:
       and for storing empirical 1000 time-series and their categories.
     * Redux store was developed in the React to cache the explored hctsa features, time-series and network plots.
     * Added the search functionality in the navigation bar.
-    <br></br> 
 
 2. **Second phase - Improving the output visualizations**  
    &nbsp; _In this phase, I focused on improving the output visualizations, that will help the user to understand
@@ -53,7 +53,6 @@ The development process of the project can be broken down into three phases:
         * Density button to change the height of the rows.
         * Download all results in .csv format.
     ![](table1edited.gif)   
-   <br></br>
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
@@ -61,7 +60,6 @@ The development process of the project can be broken down into three phases:
         * Hover to see data points and time-series names.
         * Zoom each plot to more clearly visualize the relationships.
     ![](scatterplot1.gif)
-    <br></br>
     * Visualization for comparing two features using category plots (as visualized in the gif below), which enables
       users to:
         * Select the feature from drop down list.
@@ -70,7 +68,6 @@ The development process of the project can be broken down into three phases:
         * Click on the data points to visualize the time series corresponding to that datapoint.
         * Zoom each plot to more clearly visualize the relationships.
    ![](category.gif)
-          <br></br>
     * Network visualization for pairwise relationships between each of the top 15 features matching the center feature(
       black node), which enables users to:
         * Click on the node to get feature name and keywords.
@@ -80,7 +77,6 @@ The development process of the project can be broken down into three phases:
         * Legends to get pairwise relationship in a glance.
         * Toggle buttons to control the network plots canvas.
    ![](network.gif)
-          <br></br>
 
 
 3. **Third phase - Adding docker to improve security and deploying the system on a server.**  
