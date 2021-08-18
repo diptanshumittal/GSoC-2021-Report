@@ -11,7 +11,7 @@
 ---
 
 
-### Introduction
+## Introduction
 
 In this **Google Summer of Code 2021** project I continued the development of *Comp-Engine-Features*, an online-platform
 that helps the user to compare new time-series analysis algorithms to a collection of over 7700+ existing algorithms in
@@ -31,13 +31,12 @@ Here are a few examples of the platform functionality I developed in this GSoC p
 ![](docker+explore.gif)
 
 --- 
-### What was done
+## What was done
 
 The development process of the project can be broken down into three phases:
 
-1. **First phase - Upgrading to API-first architecture**  
-   &nbsp; _In this phase, I worked on upgrading the platform architecture by introducing a range of changes:_
-
+1. #### Upgrading to API-first architecture
+   _In this phase, I worked on upgrading the platform architecture by introducing a range of changes:_
     * The front-end was developed as a SPA from scratch using React framework. Development of components for 'Home', '
       How-it-works', 'Contact', 'Preloader', 'Result', 'Syntax error', 'Timeout Error', '404 Not found', 'Navigation
       Bar', 'Explore' etc.
@@ -47,10 +46,8 @@ The development process of the project can be broken down into three phases:
       and for storing empirical 1000 time-series and their categories.
     * Redux store was developed in the React to cache the explored hctsa features, time-series and network plots.
     * Added the search functionality in the navigation bar.
-    
-
-2. **Second phase - Improving the output visualizations**  
-   &nbsp; _In this phase, I focused on improving the output visualizations, that will help the user to understand
+2. #### Improving the output visualizations
+   _In this phase, I focused on improving the output visualizations, that will help the user to understand
    connections between the feature being explored and other hctsa features. A range of output visualizations were
    developed from scratch in React app, including:_
 
@@ -60,7 +57,7 @@ The development process of the project can be broken down into three phases:
         * Density button to change the height of the rows.
         * Download all results in .csv format.
           ![](table1edited.gif)
-        
+      ####  
     * Visualization of top feature results as interactive scatter plots (as visualized in the gif below), which enables
       users to:
         * Select the no. of scatter plots using interactive slider.
@@ -68,7 +65,7 @@ The development process of the project can be broken down into three phases:
         * Hover to see data points and time-series names.
         * Zoom each plot to more clearly visualize the relationships.
           ![](scatterplot1.gif)
-      
+      ####
     * Visualization for comparing two features using category plots (as visualized in the gif below), which enables
       users to:
         * Select the feature from drop down list.
@@ -89,12 +86,11 @@ The development process of the project can be broken down into three phases:
           ![](network.gif)
       
 
-3. **Third phase - Adding docker to improve security and deploying the system on a server.**  
-   &nbsp; _This phase was one of the most challenging one. In this phase, we:_
+3. #### Adding docker to improve security and deploying the system on a server.
+   _This phase was one of the most challenging one. In this phase, we:_
     * Integrated docker with the Django backend and shifted code computation to docker containers.
     * Added support for Python and Julia code computation.
     * Deployed the complete system on the Sydney University server.
-
 --- 
 ### Link to work
 
