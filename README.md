@@ -1,4 +1,4 @@
-# GSoC Final Report
+# GSoC 2021 Report
 
 ##### Organization : International Neuroinformatics Coordinating Facility (INCF)
 
