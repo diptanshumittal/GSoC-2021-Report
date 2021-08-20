@@ -12,11 +12,20 @@
 
 ## Introduction
 
-In this **Google Summer of Code 2021** project I continued the development
-of [CompEngine: Time-Series Features](https://www.comp-engine-features.org/), an online-platform that helps the user to
-compare new time-series analysis algorithms to a collection of over 7700 existing algorithms in the [_
-hctsa_ package](https://github.com/benfulcher/hctsa). The portal takes a new time-series analysis algorithm (as Python
-or Julia code) from the user and computes its outputs across
+In this **Google Summer of Code 2021** project, we continued the development
+of [CompEngine: Time-Series Features](https://www.comp-engine-features.org/), an online platform that helps users to
+explore the collection of over 7700 time-series analysis methods implemented in the
+[_hctsa_ library](https://github.com/benfulcher/hctsa) and compare their new time-series analysis methods with the
+existing methods in the _hctsa_ library.
+
+Existing time-series analysis methods in the _hctsa_ package have been developed in various disciplines, and it's
+ambiguous how standard analysis methods in one field are related to those used in another field. To unify
+interdisciplinary literature on time-series analysis so that users can pick the best methods for their data, we first
+need to enable users to understand how different methods relate to each other.
+
+In this project, we developed an interactive portal to visualize and understand how a library of > 7700 methods are
+related to each other in a user-friendly and interactive way across three visualizations. The portal also takes a new
+time-series analysis algorithm (as Python or Julia code) from the user and computes its outputs across
 a [dataset of 1000 diverse time series](https://figshare.com/articles/1000_Empirical_Time_series/5436136). It then
 analyzes the Spearman correlation between the output of the user's algorithm with the _hctsa_ feature library and
 presents a range of intuitive output visualizations that show the best-matching features. This output allows any new
@@ -24,8 +33,6 @@ method to be automatically benchmarked against interdisciplinary literature and 
 between their algorithm and the existing interdisciplinary time-series analysis algorithms, and further assess whether
 their algorithm is contributing something new and exciting to a multidisciplinary library of analysis methods, or it
 behaves similarly to one or more existing methods.
-
-fdsfdsfdsfdsfdsfsdfdsfsdfdsf
 
 Here are a few examples of the platform functionality I developed in this GSoC project:
 
@@ -109,10 +116,10 @@ The development process of the project can be broken down into three phases:
 
 ### Future Work
 
-All the requirements outlined in the GSoC proposal have been completed. This project act like a stepping stone in the
-development of _Comp-Engine-Features_. After the official GSoC period, I plan to contribute to this further development
-by:
+All the requirements outlined in the GSoC proposal have been completed. After the official GSoC period, I plan to
+contribute to this further development by:
 
 * Creating a contribution section using which users can contribute their time-series analysis features.
 * Creating a python package using which users can get the raw data and visualize in their own way.
-* I plan to publish a scientific paper describing the functionality of our platform. 
+* I plan to publish a paper describing the functionality of our platform and its importance for enabling progress in
+  interdisciplinary literatures like scientific time-series analysis. 
