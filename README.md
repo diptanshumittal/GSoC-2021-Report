@@ -12,16 +12,20 @@
 
 ## Introduction
 
-In this **Google Summer of Code 2021** project I continued the development of *Comp-Engine-Features*, an online-platform
-that helps the user to compare new time-series analysis algorithms to a collection of over 7700+ existing algorithms in
-the [_hctsa_ package](https://github.com/benfulcher/hctsa). The portal takes a new time-series analysis algorithm (as
-python/julia code) from the user and computes its outputs across
+In this **Google Summer of Code 2021** project I continued the development
+of [CompEngine: Time-Series Features](https://www.comp-engine-features.org/), an online-platform that helps the user to
+compare new time-series analysis algorithms to a collection of over 7700 existing algorithms in the [_
+hctsa_ package](https://github.com/benfulcher/hctsa). The portal takes a new time-series analysis algorithm (as Python
+or Julia code) from the user and computes its outputs across
 a [dataset of 1000 diverse time series](https://figshare.com/articles/1000_Empirical_Time_series/5436136). It then
-analyzes the spearman correlation between the output of the user's algorithm with the _hctsa_ feature library and
+analyzes the Spearman correlation between the output of the user's algorithm with the _hctsa_ feature library and
 presents a range of intuitive output visualizations that show the best-matching features. This output allows any new
 method to be automatically benchmarked against interdisciplinary literature and helps the user to understand connections
-between their algorithm and the existing interdisciplinary time-series analysis algorithms, and further asses whether
-their algorithm is really contributing to the genuine advancement of the field.
+between their algorithm and the existing interdisciplinary time-series analysis algorithms, and further assess whether
+their algorithm is contributing something new and exciting to a multidisciplinary library of analysis methods, or it
+behaves similarly to one or more existing methods.
+
+fdsfdsfdsfdsfdsfsdfdsfsdfdsf
 
 Here are a few examples of the platform functionality I developed in this GSoC project:
 
