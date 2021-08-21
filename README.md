@@ -109,7 +109,7 @@ The development process of the project can be broken down into three phases:
 ### Link to work
 
 * [Link to full repository](https://github.com/NeuralSystemsAndSignals/Comp-Engine-Features)
-* [Link for commit]()
+* [Link for commit](https://github.com/DynamicsAndNeuralSystems/Comp-Engine-Features/pull/8)
 * [Link to all weekly reports](https://drive.google.com/drive/folders/1AFOCfBi7diJDrial1N8fYX55vpZGoOjI?usp=sharing)
 
 ---
